@@ -1,6 +1,6 @@
 # cytology.app
 
-Light solution design for keeping and processing results of the cytolgical screening baded on Laravel 5.2 and Postgres database.
+Light solution designed for keeping and processing results of the cytolgical screening based on Laravel 5.2 and Postgres database.
 Application uses AJAX quite extensively and presents look and feel provided by Bootsrtap. 
 
 <a href="https://www.youtube.com/watch?v=I1WSBs3qqFU">See video</a>
