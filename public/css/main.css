@@ -1,0 +1,215 @@
+@import url("examination.new.css");
+@import url("plugins.hacks.css");
+@import url("../images/icons/icons.css");
+
+
+
+body{
+    
+        padding:        0px;
+        margin:         0px;
+        overflow-x:     hidden;
+        /*
+        background: radial-gradient(black 15%, transparent 16%) 0 0,
+                    radial-gradient(black 15%, transparent 16%) 8px 8px,
+                    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+                    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+        */
+        
+        //background-color:#282828;
+        //background-color:#888;
+        background-color: #23527c;
+       
+        //background-size:16px 16px;
+        
+        background-image: url('../images/logo3.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 45%;
+        
+ 
+        
+        
+}
+
+
+
+
+.searchFilter{
+    
+    
+    height: 140px;
+    display: none;
+    
+}
+
+.closeButton{
+    
+    float: right; 
+    cursor: pointer;
+    
+    
+}
+
+.titleBar{
+    
+    float:                  left;
+    color:                  white;    
+    font-size:              22px;
+    margin-bottom:          40px;
+    font-family:            Tahoma;
+    text-shadow:            0 1px 1px #000;
+}
+
+
+
+
+.result_choice{
+    
+    list-style:none;
+    padding-top: 10px;
+}
+
+.result_choice > li {display:inline}
+
+.result_choice > li > label{
+    
+    display: inline !important;
+    
+    
+}
+
+
+
+
+.content{
+    
+        display:             none;
+        height:              400px;
+        width:               1250px;
+        margin:              0px;
+        padding:             0px;
+        margin-top:          30px;
+        background:          white;
+        height:              800px;
+        border-radius:       7px;
+        box-shadow:         1px 1px 0px #000; 
+    
+}
+
+.content-header{
+    
+    padding: 0px;
+    margin: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    border-radius:       7px 7px 0px 0px ;
+    margin-bottom: 40px;
+    
+    
+    width: 100%;
+    height: 50px;
+    background-color: #337AB7;
+    
+}
+
+.content-body{
+    
+    padding: 0px;
+    margin: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    width: 100%;
+}
+
+
+.back{
+    
+        height:              200px;
+        background-color:    #843534;
+}
+
+
+
+
+
+
+.content{
+    
+    clear: both;
+    
+    
+}
+
+
+.menuitem_details{
+    
+    font-size: 10px;
+    color: #888;
+    
+}
+
+.counterColumn{
+    
+    background-color: black;
+    color: white;
+    
+}
+
+.connectedSortable{
+    
+    list-style: none;
+    width: 200px;
+    height: 570px;
+    border: 1px solid #ddd;
+    
+    padding: 5px;
+    margin: 0px;
+    float: left;
+        
+}
+
+.connectedSortable>li{
+ 
+    padding:0px;
+    margin: 0px;
+    margin-bottom: 5px;
+ 
+ 
+    
+}
+
+.reportFieldName{
+    
+  
+    font-family: Tahoma;
+   background-color: #337AB7;
+   // background-color: #bbb;
+    color: white;
+    font-size: 13px;
+    font-weight:bold;
+    padding: 10px;
+ 
+     border-radius: 3px;
+    
+    
+}
+
+.reportFieldValue{
+    
+    color: black;
+    //background-color: #337AB7;
+    padding-bottom: 1px;
+    
+}
+
+#members{
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    
+   
+}

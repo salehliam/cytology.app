@@ -1,0 +1,40 @@
+.ico{
+      
+        background-position: center; 
+        background-repeat:   no-repeat;
+        width:               25px;
+        height:              25px;
+        border:              0px solid #444;
+        padding:             3px;
+        border-radius:       3px;
+        margin-right:        3px;
+        cursor:              pointer;
+        float:               left;
+        
+
+}
+
+.icomenu{
+    
+        background-color:    white;
+        background-position: center; 
+        background-repeat:   no-repeat;
+        width:               25px;
+        height:              25px;
+        padding:             3px;
+        border-radius:       3px;
+        margin-right:        3px;
+        cursor:              pointer;
+        float:               left;
+        
+        margin-top:         3px;
+    
+}
+
+
+.search{                    background-image:   url("search.png");     }
+.edit-patient{              background-image:   url("patient_edit.png");     }
+.exams-patient{             background-image:   url("patient_exams.png");     }
+    
+
+    

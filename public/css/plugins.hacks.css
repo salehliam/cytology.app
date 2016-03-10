@@ -1,0 +1,331 @@
+/*
+/ Bootstrap hacks
+*/
+
+.glyphicon{
+    
+        position:           relative            !important;
+        top:                2px                 !important;
+    
+}
+
+/*
+/ Change style of active element on the dropdown menu
+*/
+
+.dropdown-menu > .active > a{
+    
+    //background-color: #fff !important;
+    //font-weight: bold !important; 
+    //color: black !important;
+        
+    
+}
+
+.bootstrap-dialog-title{
+    
+    
+        font-size:          14px                !important;
+        text-shadow:        0 1px 1px #000      !important;
+        font-weight:        normal              !important;
+    
+}
+
+.bootstrap-dialog-draggable{
+    
+    /* 
+        background-color:   #aaa                !important;
+   */
+    
+}
+
+.formErrorContent{
+    
+        font-size:          13px                !important;
+    
+}
+
+.row-centered {
+        
+        text-align:         center;
+}
+.col-centered {
+    
+          display:          inline-block;
+          float:            none;   
+          text-align:       left;
+          margin-right:     -4px;
+}
+
+
+/*
+*    Jquery Validation Engine 
+*/
+
+
+.formError{
+    
+        width: 90px  !important;
+    
+    
+}
+
+.formErrorContent{
+    
+    /*
+        background-color: red !important;
+        color: white !important;
+    */
+}
+
+
+
+
+
+.daterangepicker_input i{
+    
+    display: none;
+    
+}
+
+/*
+*     Bootstrap-datepicker hacks 
+*/
+
+
+.datepicker{
+    
+    
+        background-color:   #337AB7             !important;
+        padding-left:       10px;
+        padding-right:      10px;
+        box-shadow:         0px 0px 0px #000;  
+        border:             1px solid #23527C;
+        opacity:            0.9;    
+        width: 310px;
+}
+
+
+
+
+
+.datepicker table{
+    
+        
+        color:              #fff                !important;
+        
+}
+
+.datepicker table td{
+    
+    
+    
+        font-size:          12px;
+        cursor:             pointer;
+        text-shadow:        0 1px 1px #000;  
+        border-radius:      0px !important;
+        
+}
+
+
+.datepicker table th{
+    
+        font-size:          13px;
+        text-shadow:        0 1px 1px #000;  
+        border-radius:      0px !important;
+        
+        
+}
+
+.datepicker table thead th.dow,
+.datepicker table thead th.prev,
+.datepicker table thead th.next,
+.datepicker table thead th.datepicker-switch{
+    
+        border-bottom:      1px solid #ddd;
+    
+}
+
+
+.datepicker table thead th.dow:hover,
+.datepicker table thead th.prev:hover,
+.datepicker table thead th.next:hover,
+.datepicker table thead th.datepicker-switch:hover{
+    
+          background-color:   #337AB7 !important;
+    
+}
+
+
+.datepicker table thead tr{
+    
+     //   border-bottom:      1px solid #ddd;
+    
+}
+
+
+.datepicker table tr td.day:hover{
+ 
+        background-color:   #23527C !important;
+       
+    
+}
+
+.datepicker table tr td.old,
+.datepicker table tr td.new {
+  color: #999 !important;
+}
+
+.datepicker table tr td.today{
+        
+       background-color:   #23527C !important;
+       //background-image: none !important;
+    
+}
+
+.datepicker table tr td.active.active{
+     
+       background-image: none !important;
+       background-color:   #245580 !important;
+       
+        //border: 1px solid #ddd !important;
+     
+    
+}
+
+
+
+.datepicker tfoot tr th{
+    
+     background-color:      #23527C; 
+    
+}
+
+
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+    
+    background-color:       #23527C;
+}
+
+
+/*
+* Hacks for x-editable datepicker
+*/
+
+.table-striped .datepicker table tr td,
+.table-striped .datepicker table tr th {
+ 
+      background-color:   #337AB7 !important;
+      color: white;
+    
+}
+
+.datepicker thead tr th.prev{
+     
+
+     color: white !important;
+
+
+
+    
+}
+
+.editable-clear{
+    
+    display: none !important;
+    
+}
+
+.editable-popup{
+    
+  opacity: 0.9 !important;
+    
+}
+
+.editable-submit > i
+{
+    
+    position: relative !important;
+    top: -1px !important;
+    
+}
+
+.editable-cancel > i{
+    
+     
+    position: relative !important;
+    top: -1px !important;
+    
+}
+
+/*
+* Labelauty hacks
+*/
+
+.labelauty-unchecked{
+    
+    width: 60px;
+
+    text-align: center;
+    
+}
+
+.labelauty-checked{
+    
+    width: 60px;
+
+    text-align: center;
+    
+}
+
+
+    
+        
+
+
+/*
+* DataTable
+*/
+
+table.dataTable{
+    
+    font-size: 14px;
+   /* height: 395px;   */
+    max-width: 1200px;
+    font-family: Tahoma;
+    table-layout: fixed;
+}
+
+table.dataTable thead{
+    
+    
+    background-color: #337AB7;
+    color: white;
+    font-size: 13px;
+    font-weight:normal;
+   
+    
+}
+
+table.dataTable thead tr{
+ 
+    height: 35px;
+    
+}
+
+
+
+
+/* Fixing double icons in bootstrap styling */
+
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after {
+	display: none;
+}
+ 
+
